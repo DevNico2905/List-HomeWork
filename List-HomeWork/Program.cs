@@ -141,6 +141,8 @@ class Program
                     {
                         Console.WriteLine($"[{factura.NumeroFactura}] Cliente: {factura.Cliente} | Total: ${factura.Total}");
                     }
+                    Console.Write("\nPresiona cualquier tecla para continuar.");
+                    Console.ReadKey();  
                 }
                 else if(option == 6 )
                 {
